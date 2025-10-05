@@ -10,7 +10,7 @@ return {
   { import = "astrocommunity.completion.nvim-cmp" },
   { import = "astrocommunity.editing-support/conform-nvim" },
   { import = "astrocommunity.lsp.ts-error-translator-nvim" },
-  { import = "astrocommunity.recipes.auto-session-restore" },
+  -- { import = "astrocommunity.recipes.auto-session-restore" }, -- Disabled to show dashboard
   { import = "astrocommunity.pack.tailwindcss" },
   -- import/override with your plugins folder
 }
