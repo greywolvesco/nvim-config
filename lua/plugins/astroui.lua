@@ -14,8 +14,8 @@ return {
     highlights = {
       init = { -- this table overrides highlights in all themes
         -- Make indent lines less visible
-        SnacksIndent = { fg = "#1a1c25" }, -- Much more subtle than default #464b5d
-        SnacksIndentScope = { fg = "#2a2c35" }, -- Slightly more visible for scope
+        SnacksIndent = { fg = "#1a1c25" },
+        SnacksIndentScope = { fg = "#4f4f6f" },
       },
     },
     -- Icons can be configured throughout the interface

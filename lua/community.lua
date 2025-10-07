@@ -6,10 +6,13 @@
 return {
   "AstroNvim/astrocommunity",
   { import = "astrocommunity.pack.lua" },
-  { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.pack.vue" },
+  { import = "astrocommunity.pack.tailwindcss" },
+
   { import = "astrocommunity.completion.nvim-cmp" },
   { import = "astrocommunity.editing-support.conform-nvim" },
+
   { import = "astrocommunity.lsp.ts-error-translator-nvim" },
   -- { import = "astrocommunity.recipes.auto-session-restore" }, -- Disabled to show dashboard
-  { import = "astrocommunity.pack.tailwindcss" },
+  -- { import = "astrocommunity.colorscheme.catppuccin" },
 }
