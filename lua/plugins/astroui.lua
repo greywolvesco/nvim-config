@@ -11,14 +11,13 @@ return {
     -- change colorscheme
     colorscheme = "material",
     -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
-    -- highlights = {
-    --   init = { -- this table overrides highlights in all themes
-    --     -- Normal = { bg = "#000000" },
-    --   },
-    --   astrodark = { -- a table of overrides/changes when applying the astrotheme theme
-    --     -- Normal = { bg = "#000000" },
-    --   },
-    -- },
+    highlights = {
+      init = { -- this table overrides highlights in all themes
+        -- Make indent lines less visible
+        SnacksIndent = { fg = "#1a1c25" }, -- Much more subtle than default #464b5d
+        SnacksIndentScope = { fg = "#2a2c35" }, -- Slightly more visible for scope
+      },
+    },
     -- Icons can be configured throughout the interface
     icons = {
       -- configure the loading of the lsp in the status line
