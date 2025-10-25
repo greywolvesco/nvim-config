@@ -83,12 +83,13 @@ return {
   {
     "coder/claudecode.nvim",
     dependencies = { "folke/snacks.nvim" },
-    config = function()
-      require("claudecode").setup {
-        -- The plugin will automatically detect Claude Code CLI installation
-      }
-    end,
+    opts = {
+      terminal = {
+        split_width_percentage = 0.40,
+      },
+    },
     keys = {
+      { "<leader>a", nil, desc = "AI/Claude Code" },
       { "<leader>ac", "<cmd>ClaudeCode<cr>", desc = "Toggle Claude Code" },
       { "<leader>as", "<cmd>ClaudeCodeSend<cr>", desc = "Send to Claude", mode = "v" },
       { "<leader>ad", "<cmd>ClaudeCodeDiffAccept<cr>", desc = "Accept diff" },
