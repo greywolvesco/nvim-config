@@ -9,15 +9,15 @@ return {
   ---@type AstroUIOpts
   opts = {
     -- change colorscheme
-    colorscheme = "material",
+    colorscheme = "catppuccin",
     -- AstroUI allows you to easily modify highlight groups easily for any and all colorschemes
-    highlights = {
-      init = { -- this table overrides highlights in all themes
-        -- Make indent lines less visible
-        SnacksIndent = { fg = "#1a1c25" },
-        SnacksIndentScope = { fg = "#4f4f6f" },
-      },
-    },
+    -- highlights = {
+    --   init = { -- this table overrides highlights in all themes
+    --     -- Make indent lines less visible
+    --     SnacksIndent = { fg = "#1a1c25" },
+    --     SnacksIndentScope = { fg = "#4f4f6f" },
+    --   },
+    -- },
     -- Icons can be configured throughout the interface
     icons = {
       -- configure the loading of the lsp in the status line

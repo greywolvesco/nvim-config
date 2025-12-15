@@ -14,5 +14,5 @@ return {
 
   { import = "astrocommunity.lsp.ts-error-translator-nvim" },
   -- { import = "astrocommunity.recipes.auto-session-restore" }, -- Disabled to show dashboard
-  -- { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.colorscheme.catppuccin" },
 }

@@ -14,7 +14,7 @@ return {
         "stylua",
 
         -- JavaScript/TypeScript
-        "typescript-language-server",
+        -- "typescript-language-server", -- Disabled: using vtsls instead (better performance, works for React/Next/Vue)
         "prettier",
         "js-debug-adapter",
 
